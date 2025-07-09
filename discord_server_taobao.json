@@ -1,0 +1,120 @@
+{
+    "server_name": "Taobao France | Communauté & Bons Plans",
+    "categories": [
+        {
+            "name": "📍・Bienvenue",
+            "channels": [
+                {
+                    "name": "regles",
+                    "type": "text"
+                },
+                {
+                    "name": "presentation",
+                    "type": "text"
+                },
+                {
+                    "name": "infos-taobao",
+                    "type": "text"
+                },
+                {
+                    "name": "annonces",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "💡・Discussions",
+            "channels": [
+                {
+                    "name": "général",
+                    "type": "text"
+                },
+                {
+                    "name": "traductions",
+                    "type": "text"
+                },
+                {
+                    "name": "questions-taobao",
+                    "type": "text"
+                },
+                {
+                    "name": "bons-plans",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "📦・Commandes Groupées",
+            "channels": [
+                {
+                    "name": "propositions-cg",
+                    "type": "text"
+                },
+                {
+                    "name": "suivi-cg",
+                    "type": "text"
+                },
+                {
+                    "name": "feedback-cg",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "🌍・Vendeurs & Produits",
+            "channels": [
+                {
+                    "name": "produits-validés",
+                    "type": "text"
+                },
+                {
+                    "name": "vendeurs-fiables",
+                    "type": "text"
+                },
+                {
+                    "name": "à-éviter",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "🔧・Support & Bots",
+            "channels": [
+                {
+                    "name": "aide-technique",
+                    "type": "text"
+                },
+                {
+                    "name": "suggestions",
+                    "type": "text"
+                },
+                {
+                    "name": "commandes-bot",
+                    "type": "text"
+                }
+            ]
+        }
+    ],
+    "roles": [
+        {
+            "name": "👑 Admin",
+            "permissions": "all"
+        },
+        {
+            "name": "🛠️ Modérateur",
+            "permissions": "moderate"
+        },
+        {
+            "name": "🧭 Guide Taobao",
+            "permissions": "manage_messages"
+        },
+        {
+            "name": "🛍️ Acheteur Confirmé",
+            "permissions": "default"
+        },
+        {
+            "name": "🌱 Nouveau",
+            "permissions": "default"
+        }
+    ]
+}

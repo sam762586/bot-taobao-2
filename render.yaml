@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: discord-bot-taobao
+    env: python
+    plan: free
+    region: frankfurt  # change si tu veux un autre datacenter
+    buildCommand: ""
+    startCommand: python main.py
+    autoDeploy: true
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false  # tu ajouteras cette variable manuellement dans l'interface Render
